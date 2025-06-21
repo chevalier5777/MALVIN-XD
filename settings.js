@@ -1,4 +1,3 @@
-
 const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
@@ -6,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~Ev0z0JLL#YpZSkM6DKXsFRenTtKDMx8IJhwDwGtqHvfGXclZl1z0",
+SESSION_ID: process.env.SESSION_ID || "malvin~4j1XjApC#ocEry2R_o9qiS2cKOyHzyPgHeHlgMctMp3USnGpbbf4",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -139,5 +138,3 @@ START_MSG: process.env.START_MSG || `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ ᴍᴀʟᴠɪɴ 
 
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ 🇿🇼`
 };
-
-
